@@ -41,6 +41,7 @@
    <li>MySQL (ewentualnie)</li>
   </ul>
  </ul>
+ <br />
 <p>Frontend strony:</p>
 <ul>
   <li>HTML</li>

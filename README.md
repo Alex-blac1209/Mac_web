@@ -26,26 +26,26 @@
 <h5>Źródła</h5>
 <p>Grafiki wykorzystane na stronie internetowej są bezpłatne. (Undraw.co, Pexels.com), ewentualnie samemu robione</p>
 <h5>Założenia</h5>
-    <ul>
-      <li>Strona modernistyczna (przygotowana na dzisiejsze standardy)</li>
-      <li>Responsywność</li>
-      <li>Funkcjonalność i łatwe przemieszczanie się po stronie</li>
-      <li><b>Portfolio</b></li>
-    </ul>
+<ul>
+ <li>Strona modernistyczna (przygotowana na dzisiejsze standardy)</li>
+ <li>Responsywność</li>
+ <li>Funkcjonalność i łatwe przemieszczanie się po stronie</li>
+ <li><b>Portfolio</b></li>
+</ul>
 <h5>Dokumentacja</h5>
-    <p>Backend strony:</p>
-    <ul>
-      <li>Twig Rendering Engine</li>
-      <li>JavaScript</li>
-      <ul>
-        <li>MySQL (ewentualnie)</li>
-      </ul>
-    </ul>
-    <p>Frontend strony:</p>
-    <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript (rozszerzony o bibliotekę JQuery)</li>
-    </ul>
+<p>Backend strony:</p>
+ <ul>
+  <li>Twig Rendering Engine</li>
+  <li>JavaScript</li>
+  <ul>
+   <li>MySQL (ewentualnie)</li>
+  </ul>
+ </ul>
+<p>Frontend strony:</p>
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript (rozszerzony o bibliotekę JQuery)</li>
+</ul>
     
     

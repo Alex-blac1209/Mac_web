@@ -1,0 +1,24 @@
+{
+  "name": "mac_web",
+  "description": "",
+  "main": "main.js",
+  "authors": [
+    "Alex <aleksmaliszews@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/Alex-blac1209/Mac_web",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "bootstrap": "^5.0.2",
+    "fontawesome": "^5.15.3"
+  }
+}

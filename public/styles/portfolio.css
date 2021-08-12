@@ -1,0 +1,107 @@
+.wier .section_title {
+    color: var(--second-acent-color);
+    padding: 0 15px;
+    width: 100%;
+    font-size: 40px;
+    /* margin-bottom: 60px; */
+    margin: 40px 0 60px;
+}
+
+.portfolio .button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+}
+
+.portfolio .button-container .btn {
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.btn:active {
+    background-color: var(--first-acent-color);
+    color: var(--main-color);
+    border: 2px solid var(--main-color);
+}
+
+.portfolio .image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+}
+
+.portfolio .image-container .box {
+    width: 35rem;
+    margin: 1rem;
+    border-radius: .5rem;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    overflow: hidden;
+    height: 25rem;
+    position: relative;
+    border: 1.5rem solid var(--first-acent-color);
+    cursor: pointer;
+    display: none;
+}
+
+.portfolio .image-container .box:hover {
+    transform: scale(1.1);
+}
+
+.portfolio .image-container .box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.portfolio .image-container .box .info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: var(--third-acent-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    opacity: .8;
+    transform: scale(0);
+}
+
+.portfolio .image-container .box:hover .info{
+    transform: scale(1);
+}
+
+.portfolio .image-container .box .info h3 {
+    font-size: 3rem;
+    color: var(--seven-acent-color);
+    text-align: center;
+}
+
+.przy {
+    color: var(--first-acent-color);
+    background-color: var(--main-color);
+    font-size: 1em;
+    font-weight: 600;
+    display: block;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    border-radius: 2px;
+    transition: 0.5s ease;
+    margin-top: 30px;
+    margin: 20px auto;
+    outline: none;
+}
+
+
+.przy:hover {
+    background-color: var(--first-acent-color);
+    color: var(--main-color);
+    border: 2px solid var(--main-color);
+}

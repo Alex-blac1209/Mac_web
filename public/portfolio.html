@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Aleksandra Maliszewska">
+    <meta name="description" content="Artykuły na Twoją stronę, treści generujące leady sprzedażowe. Grafiki w artykułach. Zasady SEO w praktyce.">
+    <meta name="keywords" content="SEO, Zasady SEO, Leady sprzedażowe, Artykuły sprzedażowe, Strategia SEO, Treści SEO">
+    <link rel="stylesheet" type="text/css" href="/vendor/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="/vendor/fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/portfolio.css">
+    <link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Raleway:wght@100;200;300;400;500;600&family=Unica+One&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/site.webmanifest">
+    <title>Macr_page</title>
+</head>
+<body>
+    <!-- PRELOADER -->
+    <div class="preloader">
+        <div class="loader"></div>
+    </div>
+    <!-- PRZYCISK SCROLLUJĄCY DO GÓRY -->
+    <div class="scrollToTop-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <!-- NAWIGACJA -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav_logo" style="font-family: var(--second-font); font-size: 3rem;">MacMR</a>
+            <div class="nav_menu" id="nav_menu">
+                <ul class="nav_list grid">
+                    <li class="nav_item">
+                        <a href="index.html#home" class="nav_link">
+                            <i class="fas fa-home nav_icon"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="index.html#about" class="nav_link">
+                            <i class="fas fa-user nav_icon"></i> About
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="index.html#skills" class="nav_link">
+                            <i class="fas fa-file-alt nav_icon"></i> Skills
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="index.html#services" class="nav_link">
+                            <i class="fas fa-briefcase nav_icon"></i> Services
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="index.html#portfolio" class="nav_link">
+                            <i class="fas fa-image nav_icon"></i> Portfolio
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="index.html#contact" class="nav_link">
+                            <i class="fas fa-paper-plane nav_icon"></i> Contact
+                        </a>
+                    </li>
+                </ul>
+                <i class="fas fa-times nav_close" id="nav-close"></i>
+                
+            </div>
+            <div class="nav_btns">
+                <div class="nav_toggle" id="nav_toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="portfolio">
+            <div class="wier">
+                <h2 class="section_title">Ostatnie Prace</h2>
+            </div>
+            <div class="button-container">
+                <div class="btn" data-filter="all">wszystko</div>
+                <div class="btn" data-filter="houses">domy, budowa</div>
+                <div class="btn" data-filter="health">estetyka zdrowotna</div>
+                <div class="btn" data-filter="commerce">handel</div>
+                <div class="btn" data-filter="relax">hobby, wypoczynek</div>
+                <div class="btn" data-filter="garden">ogród</div>
+                <div class="btn" data-filter="law">prawo</div>
+                <div class="btn" data-filter="sport">sport</div>
+                <div class="btn" data-filter="technic">technika, buisness</div>
+                <div class="btn" data-filter="clothes">ubrania</div>
+                <div class="btn" data-filter="interiors">wnętrza</div>
+            </div>
+    
+            <div class="image-container">
+                <div class="box houses">
+                    <img src="images/budowa_altany.jpg" alt="budowa altany">
+                    <a href="documents/Houses/Budowa altany. Przepisy i poradnik_Magazyn Ceneo.pl.pdf" target="_blank">
+                        <div class="info">
+                            <h3>BUDOWA ALTANY</h3>
+                        </div>
+                    </a> 
+                </div>
+    
+                <div class="box health">
+                    <img src="images/cbd.jpg" alt="CBD w pielęgnacji skóry">
+                    <a href="documents/Health/Jakie stężenie CBD wybrać do pielęgnacji skóry.pdf" target="_blank">
+                        <div class="info">
+                            <h3>CBD W PIELĘGNACJI SKÓRY</h3>
+                        </div>
+                    </a>
+                </div>
+    
+                <div class="box commerce">
+                    <img src="images/kolo_zebate.jpg" alt="Audi kontra BMW">
+                    <a href="documents/Commerce/Audi kontra BMW. Skup samochodów.pdf" target="_blank">
+                        <div class="info">
+                            <h3>AUDI VS BMW</h3>
+                        </div>
+                    </a>
+                </div>
+    
+                <div class="box relax">
+                    <img src="images/babie.jpg" alt="To do list">
+                    <a href="documents/Relax/Bank imion, wiedza tajemna.  Blueberry bar Poznań.pdf" target="_blank">
+                        <div class="info">
+                            <h3>BANK IMION</h3>
+                        </div>
+                    </a>
+                </div>
+    
+                <div class="box garden">
+                    <img src="images/lawenda.jpg" alt="Dobroczynne właściwości lawendy">
+                    <a href="documents/Garden/Dobroczynne właściwości lawendy  wszystko co musisz wiedzieć!  e-ogrody.pdf" target="_blank">
+                        <div class="info">
+                            <h3>DOBROCZYNNE WŁAŚCIWOŚCI LAWENDY</h3>
+                        </div>
+                    </a>
+                </div>
+    
+                <div class="box law">
+                    <img src="images/law.jpg" alt="Baza Kancelarii Notarialnych Warszawa">
+                    <a href="documents/Law/Baza Kancelarii Notarialnych Warszawa_.pdf" target="_blank">
+                        <div class="info">
+                            <h3>BAZA KANCELARII NOTARIALNYCH WARSZAWA</h3>
+                        </div>
+                    </a>
+                </div>
+    
+                <div class="box sport">
+                    <img src="images/ball.jpg" alt="Polski Akcent Sportu">
+                    <a href="documents/Sport/Polski akcent czyli Andres Rios wciąż na ławce  OknoNaMundial.pl.pdf" target="_blank">
+                        <div class="info">
+                            <h3>POLSKI AKCENT SPORTU</h3>
+                        </div>
+                    </a>
+                </div>
+    
+                <div class="box technic">
+                    <img src="images/bakeries.jpg" alt="ADA++ - SYSTEM WSPIERAJĄCY PIEKARNIE">
+                    <a href="documents/Technic/ADA ++, system wspierający piekarnie _ Mistrz Branży  interaktywny portal dla piekarzy, cukierników, lodziarzy_.pdf" target="_blank">
+                        <div class="info">
+                            <h3>ADA++ - SYSTEM WSPIERAJĄCY PIEKARNIE</h3>
+                        </div>
+                    </a>
+                </div>
+    
+                <div class="box clothes">
+                    <img src="images/Trainers.jpg" alt="sposoby przechowywania butów">
+                    <a href="documents/Clothes/4 pomysły na przechowywanie butów.  Syneko.pl.pdf" target="_blank">
+                        <div class="info">
+                            <h3>SPOSOBY NA PRZECHOWYWANIE BUTÓW</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="box interiors">
+                    <img src="images/Duo_Roller_Blinds.jpg" alt="rolety rzymskie - czy to dobre rozwiązanie?">
+                    <a href="documents/Interiors/Czy rolety rzymskie to dobre rozwiązanie na okno do salonu_.pdf" target="_blank">
+                        <div class="info">
+                            <h3>ROLETY RZYMSKIE - CZY TO DOBRE ROZWIĄZANIE?</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="box health">
+                    <img src="images/painkillers.jpg" alt="melantolan 2 - cudowny preparat dla skóry">
+                    <a href="documents/Health/Melanotan 2_działanie_Przewodnik po Krakowie.pdf" target="_blank">
+                        <div class="info">
+                            <h3>MELANTONAN 2 - CUDOWNY PREPARAT DLA SKÓRY</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="box health">
+                    <img src="images/olis_cbd.jpg" alt="Olejek CBD z konopii siewnych w leczeniu koronawirusa">
+                    <a href="documents/Health/Olejek CBD z konopi siewnych w leczeniu koronowirusa_.pdf" target="_blank">
+                        <div class="info">
+                            <h3>OLEJEK CBD Z KONOPII SIEWNYCH</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="box houses">
+                    <img src="images/swimming_pool.jpg" alt="Budowa basenu przydomowego">
+                    <a href="documents/Houses/Budowa basenu przydomowego krok po kroku_Basen ogrodowy_Ogród i działka_budnet.pl.pdf" target="_blank">
+                        <div class="info">
+                            <h3>BUDOWA BASENU</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="box houses">
+                    <img src="images/concrete.jpg" alt="Deskowanie betonu architektonicznego">
+                    <a href="documents/Houses/Deskowanie betonu architektonicznego_Pomysły architektów.pdf" target="_blank">
+                        <div class="info">
+                            <h3>BETON ARCHITEKTONICZNY</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="box houses">
+                    <img src="images/closed.jpg" alt="Zamknięte nieruchomości Hiszpanii przez bank">
+                    <a href="documents/Houses/Nieruchomości Hiszpania zajęte przez bank _ CASAYPLAYA.pdf" target="_blank">
+                        <div class="info">
+                            <h3>ZAMKNIĘTE NIERUCHOMOŚCI HISZPANII</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="box houses">
+                    <img src="images/fence.jpg" alt="Ogrodzenia posesyjne">
+                    <a href="documents/Houses/Ogrodzenia posesyjne_kluczowe rodzaje i cechy_Aranzujnaswoim.pl.pdf" target="_blank">
+                        <div class="info">
+                            <h3>OGRODZENIA POSESYJNE</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="box relax">
+                    <img src="images/e-scooters.jpg" alt="hulajnogi elektryczne, zmiany w prawie">
+                    <a href="documents/Relax/Hulajnogi elektryczne, zmiany w prawie  Kociewiak.pl.pdf" target="_blank">
+                        <div class="info">
+                            <h3>HULAJNOGI ELEKTRYCZNE</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="box relax">
+                    <img src="images/Heeling_sailboat.jpg" alt="Jaki silnik zaburtowy wybrać">
+                    <a href="documents/Relax/Jaki silnik zaburtowy wybrać_ Lawety samochodowe  Łodź.pdf" target="_blank">
+                        <div class="info">
+                            <h3>SILNIK ZABURTOWY - JAKI WYBRAĆ?</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="box commerce">
+                    <img src="images/koparka.jpg" alt="Aukcje poleasingowe maszyn, czy warto?">
+                    <a href="documents/Commerce/Aukcje poleasingowe maszyn, czy warto_ IKS Magazyn.pdf" target="_blank">
+                        <div class="info">
+                            <h3>AUKCJE POLEASINGOWE MASZYN, CZY WARTO?</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="box commerce">
+                    <img src="images/documents.jpg" alt="Czym są wdrożenia ISO">
+                    <a href="documents/Commerce/Czym są wdrożenia ISO_ _ apedukacjaszkolenia.pl.pdf" target="_blank">
+                        <div class="info">
+                            <h3>CZYM SĄ WDROŻENIA ISO?</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="box commerce">
+                    <img src="images/cmentarz.jpg" alt="Czyszczenie i sprzątanie gróbów">
+                    <a href="documents/Commerce/Czyszczenie i Sprzątanie Grobów Poznań i okolice.pdf" target="_blank">
+                        <div class="info">
+                            <h3>CZYSZCZENIE I SPRZĄTANIE GROBÓW</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="box garden">
+                    <img src="images/peony.jpg" alt="Najpopularniejsze odmiany piwonii">
+                    <a href="documents/Garden/Najpopularniejsze odmiany piwonii  Top 5!  Wyobraznia.eu.pdf" target="_blank">
+                        <div class="info">
+                            <h3>NAJPOPULARNIEJSZE ODMIANY PIWONII</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="box garden">
+                    <img src="images/nawozy.jpg" alt="Najlepsze nawozy dolistne">
+                    <a href="documents/Garden/Nawozy dolistne na zboża_pszenicę. Nasze top 5 mieszanin.  dlaroslin.pl.pdf" target="_blank">
+                        <div class="info">
+                            <h3>NAJLEPSZE NAWOZY DOLISTNE</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="box garden">
+                    <img src="images/Corn_garden.png" alt="Nawożenie kukurydzy z naciskiem na dokarmianie dolistne">
+                    <a href="documents/Garden/Nawożenie kukurydzy z naciskiem na dokarmianie dolistne ,dlaroslin.pl.pdf" target="_blank">
+                        <div class="info">
+                            <h3>NAWOŻENIE KUKURYDZY</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="box garden">
+                    <img src="images/siano.jpeg" alt="Pasza, sposób na zwiększenie produkcji">
+                    <a href="documents/Garden/Pasza, sposób na zwiększenie produkcji.  Cmielstudio.pl.pdf" target="_blank">
+                        <div class="info">
+                            <h3>PASZA, SPOSÓB NA ZWIĘKSZENIE PRODUKCJI</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="box health">
+                    <img src="images/sunlight.jpg" alt="Opalenizna w zastrzyku">
+                    <a href="documents/Health/Opalenizna w zastrzyku Melanotan_czy jest dla nas bezpieczna.pdf" target="_blank">
+                        <div class="info">
+                            <h3>OPALENIZNA  W ZASTRZYKU</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="box health">
+                    <img src="images/food.jpg" alt="warzywa">
+                    <a href="documents/Health/Opera Zrzut ekranu.png" target="_blank">
+                        <div class="info">
+                            <h3>DIETA OBNIŻAJĄCA CIŚNIENIE</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="box health">
+                    <img src="images/Armpit.jpg" alt="Sposoby na stałe usunięcie włosów">
+                    <a href="documents/Health/Skuteczne, domowe sposoby na stałe usunięcie włosów. Korzystam z nich od lat. Znikają raz na zawsze..pdf" target="_blank">
+                        <div class="info">
+                            <h3>SPOSOBY NA STAŁE USUNIĘCIE WŁOSÓW</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="box houses">
+                    <img src="images/polished_concrete.jpg" alt="posadzka z mikrocementu czy z betonu polerowanego?">
+                    <a href="documents/Houses/Posadzka z mikrocementu czy z betonu polerowanego_najlepsze porównanie _ DeboweTarasy.pl.pdf" target="_blank">
+                        <div class="info">
+                            <h3>POSADZKA Z MIKROCEMENTU CZY Z BETONU POLEROWANEGO?</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="box houses">
+                    <img src="images/arch_proj.jpg" alt="Projekty poniżej 150m2">
+                    <a href="documents/Houses/Projekty poniżej 150m2_Domy-ogrody.pl.pdf" target="_blank">
+                        <div class="info">
+                            <h3>PROJEKTY PONIŻEJ 150 M2</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="box houses">
+                    <img src="images/Paint_roller.jpg" alt="Remont mieszkania jest zawsze poważną inwestycją ">
+                    <a href="documents/Houses/Remont mieszkania jest zawsze poważną inwestycją.pdf" target="_blank">
+                        <div class="info">
+                            <h3>REMONT - POWAŻNA DECYZJA W ŻYCIU</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="box interiors">
+                    <img src="images/drapes.jpg" alt="Jakie dobrać zasłony, aby ocieplić wnętrze">
+                    <a href="documents/Interiors/Gdańsk_ Jakie dobrać zasłony, aby ocieplić wnętrze_.pdf" target="_blank">
+                        <div class="info">
+                            <h3>JAKIE DOBRAĆ ZASŁONY, ABY OCIEPLIĆ WNĘTRZE?</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="box interiors">
+                    <img src="images/stickers_one.jpg" alt="Jak wybrać naklejki do pokoju dzieci">
+                    <a href="documents/Interiors/Jak wybrać naklejki do pokoju dzieci_  Homesticker.pdf" target="_blank">
+                        <div class="info">
+                            <h3>JAK WYBRAĆ NAKLEJKI DO POKOJU DZIECI?</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="box interiors">
+                    <img src="images/stickers_two.jpg" alt="Najciekawsze pomysły na wykorzystanie kolorowych naklejek na ścianę">
+                    <a href="documents/Interiors/Najciekawsze pomysły na wykorzystanie kolorowych naklejek na ścianę.  Homesticker.pdf" target="_blank">
+                        <div class="info">
+                            <h3>NAJCIEKAWSZE POMYSŁY NA WYKORZYSTANIE NAKLEJEK</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="box interiors">
+                    <img src="images/flooring.jpg" alt="Parkiet drewniany do salonu ">
+                    <a href="documents/Interiors/Parkiet drewniany do salonu  Wiadomości.pdf" target="_blank">
+                        <div class="info">
+                            <h3>PARKIET DREWNIANY DO SALONU</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="box interiors">
+                    <img src="images/curtains.jpg" alt=" Na co zwrócić uwagę wybierając firanki do kuchni ">
+                    <a href="documents/Interiors/Q4.pl  Na co zwrócić uwagę wybierając firanki do kuchni_.pdf" target="_blank">
+                        <div class="info">
+                            <h3>NA CO ZWRÓCIĆ UWAGĘ WYBIERAJĄC FIRANKI DO KUCHNI?</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="box law">
+                    <img src="images/Business-Intelligence.jpg" alt="Cyfryzacja w postępowaniu cywilnym ">
+                    <a href="documents/Law/Cyfryzacja w postępowaniu cywilnym.  Sudoku gra.pdf" target="_blank">
+                        <div class="info">
+                            <h3>CYFRYZACJA W POSTĘPOWANIU CYWILNYM</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="box law">
+                    <img src="images/sad_woman.jpg" alt="Molestowanie w pracy, jak się bronić">
+                    <a href="documents/Law/Molestowanie w pracy, jak się bronić_  Obsługa prawna.pdf" target="_blank">
+                        <div class="info">
+                            <h3>MOLESTOWANIE W PRACY, JAK SIĘ BRONIĆ?</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="box law">
+                    <img src="images/home_office.jpg" alt="Wirtualne biuro, jak działa?">
+                    <a href="documents/Law/Wirtualne biuro, jak działa_  zyrardowski24.pl.pdf" target="_blank">
+                        <div class="info">
+                            <h3>WIRTUALNE BIURO, JAK DZIAŁA?</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="box law">
+                    <img src="images/rings.jpg" alt="Rozwód a podział majątku">
+                    <a href="documents/Law/Rozwód a podział majątku _ Amers.pdf" target="_blank">
+                        <div class="info">
+                            <h3>ROZWÓD A PODZIAŁ MAJĄTKU</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="box law">
+                    <img src="images/Handshake.svg" alt="Warto korzystać z usług doradcy kredytowego">
+                    <a href="documents/Law/Warto korzystać z usług doradcy kredytowego _ Softwarepatch.pdf" target="_blank">
+                        <div class="info">
+                            <h3>CZY WARTO KORZYSTAĆ Z USŁUG DORADCY KREDYTOWEGO?</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="box commerce">
+                    <img src="images/kubus.jpg" alt="Jak Chevrolet został Kubusiem?">
+                    <a href="documents/Commerce/Jak Chevrolet został Kubusiem_ Prawo jazdy Lublin.pdf" target="_blank">
+                        <div class="info">
+                            <h3>JAK CHEVROLET ZOSTAŁ KUBUSIEM?</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="box commerce">
+                    <img src="images/transport.jpg" alt="Sprowadzanie towaru z Chin, czy bezpieczne">
+                    <a href="documents/Commerce/Sprowadzanie towaru z Chin, czy bezpieczne.pdf" target="_blank">
+                        <div class="info">
+                            <h3>SPROWADZANIE TOWARU Z CHIN, CZY BEZPIECZNIE?</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="box relax">
+                    <img src="images/witcher.jpg" alt="Twórca legendy  Andrzej Sapkowski">
+                    <a href="documents/Relax/Twórca legendy  Andrzej Sapkowski  blog książkowy.pdf" target="_blank">
+                        <div class="info">
+                            <h3>ANDRZEJ SAPKOWSKI - TWÓRCA LEGENDY</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="box relax">
+                    <img src="images/motorbike.jpg" alt="Motocykl, miłość na całe życie">
+                    <a href="documents/Relax/Motocykl, miłość na całe życie  Moto3m.pl.pdf" target="_blank">
+                        <div class="info">
+                            <h3>MOTOCYKL, MIŁOŚĆ NA CAŁE ŻYCIE</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="box relax">
+                    <img src="images/sailboat.jpg" alt="Żeglarski savoir-vivre">
+                    <a href="documents/Relax/Żeglarski savoir-vivre.  Vivere bene Polska.pdf" target="_blank">
+                        <div class="info">
+                            <h3>ŻEGLARSKI SAVOIR-VIVRE</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="box technic">
+                    <img src="images/mise.jpg" alt="Laptopy czy komputery stacjonarne, co lepsze?">
+                    <a href="documents/Technic/Laptopy czy komputery stacjonarne, co lepsze_.pdf" target="_blank">
+                        <div class="info">
+                            <h3>LAPTOPY CZY KOMPUTERY, CO LEPSZE?</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="box technic">
+                    <img src="images/solar_panels.jpg" alt="Zalety fotowoltaiki i dofinansowania">
+                    <a href="documents/Technic/Zalety fotowoltaiki i dofinansowania. Domy,ogrody.pl.pdf" target="_blank">
+                        <div class="info">
+                            <h3>ZALETY FOTOWOLTAIKI I DOFINANSOWANIA</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="box technic">
+                    <img src="images/buildings.jpg" alt="Błędy w budowaniu wizerunku">
+                    <a href="documents/Technic/BŁĘDY W BUDOWANIU WIZERUNKU MARKI _ SuperBiznes.eu Pomysł na Biznes Plan.pdf" target="_blank">
+                        <div class="info">
+                            <h3>BŁĘDY W BUDOWANIU WIZERUNKU MARKI</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="box technic">
+                    <img src="images/LEDs.jpg" alt="Jak zabezpieczyć LEDy przed przepięciami">
+                    <a href="documents/Technic/Jak zabezpieczyć LEDy przed przepięciami_  PomysłyDoDomu.pl.pdf" target="_blank">
+                        <div class="info">
+                            <h3>JAK ZABEZPIECZYĆ LEDY PRZED PRZEPIĘCIAMI?</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="box technic">
+                    <img src="images/kod_kreskowy.svg" alt="Jak wybrać odpowiednie urządzenia do obsługi kodów kreskowych?">
+                    <a href="documents/Technic/Jak wybrać odpowiednie urządzenia do obsługi kodów kreskowych_.pdf" target="_blank">
+                        <div class="info">
+                            <h3>JAK WYBRAĆ ODPOWIEDNIE URZĄDZENIA DO OBSŁUGI KODÓW KRESKOWYCH?</h3>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+            <!-- <button class="przy a">Load More</button> -->
+    </section>
+    <footer>
+        <div class="kon">
+            <div class="sec aboutus">
+                <h2>O Mnie</h2>
+                <p>Jakość, efektywość, satysfakcja - to są przymioty mojej pracy. Jestem copywriterem, który tworzy zawartość waszych stron i stwarza, że są bardziej atrakcyjne dla użytkowników.</p>
+                <ul class="meh">
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fas fa-envelope"></i></a></li>
+                </ul>
+            </div>
+            <div class="sec quicklinks">
+                <h2>Menu</h2>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="sec cont">
+                <h2>Informacje Kontaktowe</h2>
+                <ul class="info">
+                    <!-- <li>
+                        <span><i class="fas fa-map-marker-alt"></i></span>
+                        <span>
+                            Ul. Żytnia 38B<br />
+                            Prace Duże, Tarczyn<br />
+                            05-504
+                        </span>
+                    </li> -->
+                    <li>
+                        <span><i class="fas fa-at"></i></span>
+                        <span>
+                          <a href="mailto:maciejmrozowoski@wp.pl">maciejmrozowoski@wp.pl</a> 
+                        </span>
+                    </li>
+                    <li>
+                        <span><i class="fas fa-phone-alt"></i></span>
+                        <span>
+                           <a href="tel:48695853934">+48-695-853-934</a> 
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <div class="copyright">
+        Copyright &copy; 2021 Aleksandra Maliszewska || Wszelkie prawa zastrzeżone
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- STOPKA -->
+    <!-- <footer>
+        <div class="kon">
+            <div class="sec aboutus">
+                <h2>O Mnie</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus ea sequi fugiat deleniti voluptas reprehenderit eos? Dolorum assumenda ut atque!</p>
+                <ul class="meh">
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fas fa-envelope"></i></a></li>
+                </ul>
+            </div>
+            <div class="sec quicklinks">
+                <h2>Menu</h2>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="sec cont">
+                <h2>Informacje Kontaktowe</h2>
+                <ul class="info"> -->
+                    <!-- <li>
+                        <span><i class="fas fa-map-marker-alt"></i></span>
+                        <span>
+                            Ul. Żytnia 38B<br />
+                            Prace Duże, Tarczyn<br />
+                            05-504
+                        </span>
+                    </li> -->
+                    <!-- <li>
+                        <span><i class="fas fa-at"></i></span>
+                        <span>
+                          <a href="mailto:maciejmrozowoski@wp.pl">maciejmrozowoski@wp.pl</a> 
+                        </span>
+                    </li>
+                    <li>
+                        <span><i class="fas fa-phone-alt"></i></span>
+                        <span>
+                           <a href="tel:48695853934">+48-695-853-934</a> 
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <div class="copyright">
+        Copyright &copy; 2021 Aleksandra Maliszewska || Wszelkie prawa zastrzeżone
+    </div> -->
+    <script src="/vendor/jquery/dist/jquery.min.js"></script>
+    <script src="scripts/main.js"></script>
+    <script src="/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
